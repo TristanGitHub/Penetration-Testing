@@ -17,7 +17,10 @@ Active Online Attacks
 - Trojan/Spyware/Keylogger
 - USB Drive
 - Hash injection (mimicats)
-- LLMNR/NBT-NS Poisoning
+- LLMNR/NBT-NS Poisoning (responder)
+- Wire Sniffing
+- Mand-in-the-middle
+- Rainbow Table Attack
 
 Passive Online Attacks
 - https://www.fortypoundhead.com
