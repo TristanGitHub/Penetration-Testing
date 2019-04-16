@@ -16,7 +16,7 @@ TCP/UDP 135 Microsoft RPC Endpoint Mapper
 
 DNS TCP/UDP 53 Domain Name System Zone transfer          (nslookup)
 NetBIOS                                                  (NBstat, Superscan)
-SNMP UDP 161            
+SNMP UDP 161                                             (nmap -sU -p 161 --script=snmp-brute, Metasploit: use auxiliary/scanner/snmp/snmp_login)
 LDAP TCP/UDP 389                                         (ADexplorer, p126)
 NTP 123                                                  (NTPTRACE)
 SMTP                                                     (smtp-user-enum)
