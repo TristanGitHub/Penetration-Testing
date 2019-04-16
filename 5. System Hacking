@@ -16,7 +16,8 @@ Active Online Attacks
 - Rules-based attack
 - Trojan/Spyware/Keylogger
 - USB Drive
-- 
+- Hash injection (mimicats)
+- LLMNR/NBT-NS Poisoning
 
 Passive Online Attacks
 - https://www.fortypoundhead.com
@@ -26,5 +27,5 @@ Passive Online Attacks
 - https://defaultpassword.com
 - https://default-password.info
 - https://routerpasswords.com
-- https://
+
 Offline Attacks:
