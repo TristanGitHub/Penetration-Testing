@@ -32,3 +32,19 @@ Passive Online Attacks
 - https://routerpasswords.com
 
 Offline Attacks:
+
+Privilege Escalation:
+- Horizontal Privilege Escalation
+- Vertical Privilege Escalation
+- DDL Hijacking
+- Dylib Hijacking
+- Spectre and Meltdown vulns
+- Access token manipulation
+- application shimming
+- File System Permissions Weakness
+- Path Interception
+- Scheduled Task
+- Launch Daemon
+- Plist Modification
+- Setuid and Setgid
+- Web Shell
