@@ -1,8 +1,20 @@
 Enumeration is an attacker creates active connections with system and performs directed queries to gain more information about the target.
 
+Techniques for Enumeration
+
 Services and Port to Enumerate p119
 
 TCP/UDP 53 Domain Name System (DNS) Zone transfer
 TCP/UDP 135 Microsoft RPC Endpoint Mapper
+
+NetBIOS         (NBstat)
+SNMP            
+LDAP            (p126
+NTP             (NTPTRACE)
+SMTP and DNS    (smtp-user-enum)
+IPsec           (nmap)
+VoIP            (svmap)
+RPC             (NMAP)
+Unix/Linux User (finger)
 
 
