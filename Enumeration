@@ -10,18 +10,20 @@ Techniques for Enumeration:
 
 Services and Port to Enumerate p119
 
-TCP/UDP 53 Domain Name System (DNS) Zone transfer
+
 TCP/UDP 135 Microsoft RPC Endpoint Mapper
 
-NetBIOS             (NBstat)
-SNMP UDP 445            
-LDAP TCP/UDP 389    (p126
-NTP 123             (NTPTRACE)
-SMTP                (smtp-user-enum)
-DNS UDP 53          (nslookup)
-IPsec               (nmap)
-VoIP                (svmap)
-RPC                 (NMAP)
-Unix/Linux User     (finger)
 
+DNS TCP/UDP 53 Domain Name System Zone transfer          (nslookup)
+NetBIOS                                                  (NBstat)
+SNMP UDP 161            
+LDAP TCP/UDP 389                                         (p126
+NTP 123                                                  (NTPTRACE)
+SMTP                                                     (smtp-user-enum)
+
+IPsec                                                    (nmap)
+VoIP                                                     (svmap)
+RPC                                                      (NMAP)
+Unix/Linux User                                          (finger)
+SMB TCP/UDP 445     
 
