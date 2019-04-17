@@ -1,0 +1,7 @@
+Protocols vulnerable to sniffing (non encrypted protocols):
+- Telnet and Rlogin
+- IMAP
+- HTTP
+- SMTP and NNTP
+- POP
+- FTP
