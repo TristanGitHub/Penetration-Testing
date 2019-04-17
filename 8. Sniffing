@@ -1,3 +1,14 @@
+
+Types of sniffing:
+- Passive sniffing
+- Active sniffing
+    - Mac Flooding
+    - DHCP Attacks
+    - DNS Poisoning
+    - ARP Poisoning
+    - Swtich Port Stealing
+    - Spoofing Attack
+
 Protocols vulnerable to sniffing (non encrypted protocols):
 - Telnet and Rlogin
 - IMAP
@@ -5,3 +16,8 @@ Protocols vulnerable to sniffing (non encrypted protocols):
 - SMTP and NNTP
 - POP
 - FTP
+
+Sniffing techniques:
+1. DHCP Starvation Attack (dos attack)
+2. Rogue DHCP Server Attack
+3. 
