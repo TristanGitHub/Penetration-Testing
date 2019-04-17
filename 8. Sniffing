@@ -18,6 +18,7 @@ Protocols vulnerable to sniffing (non encrypted protocols):
 - FTP
 
 Sniffing techniques:
-1. DHCP Starvation Attack (dos attack)
-2. Rogue DHCP Server Attack
-3. 
+- DHCP Starvation Attack (dos attack)
+- Rogue DHCP Server Attack
+- DNS Spoofing
+
