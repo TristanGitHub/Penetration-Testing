@@ -1,0 +1,11 @@
+Denial-f-Service (DOS) is an attack 
+
+Basic Categories of DOS/DDOS attack vectors
+- Volumetric
+- Protocol Attacks
+- Application layer attack
+
+Tools to use:
+- Slowloris attack (for HTTP)
+- SYN Flooding w Hping3 (windows10)
+- HOIC
