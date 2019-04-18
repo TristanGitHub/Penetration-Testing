@@ -3,9 +3,12 @@ Web application attacks:
 - Broken Authenticaion 
 - Sensitive data Exposure
 - Broken Acces control
-- XML XXE
+- XML External Entity XXE
 - Security misconfiguration
 - XXS
-- Insecure
+- Insecure Deserialzation
 - LDAP Injection Attack
-- 
+- Parameter Tampering
+
+
+Webw00f to identify if there is a Web Application Firewall behind the web application.
