@@ -1,0 +1,20 @@
+Web server attacks:
+- Directory Traversal Attacks
+- Web Server Misconfiguration
+- HTTP Response Splitting Attack
+- Web Cache Poisoning Attack
+- SSH Brute Force Attack
+- Web Server Password Cracking
+
+Web Application Attacks
+- Paramter/Form Tampering 
+- Session Hijacking
+- DOS
+- Cross site Request Forgery Attack
+- Cookie Tampeing 
+- SQL injection 
+- Cross site scripting (XXS)
+- Command injection 
+- Web Server Footprinting and banner grapping
+- Web Server Footprinting
+- NMAP using script
