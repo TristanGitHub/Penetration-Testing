@@ -1,2 +1,9 @@
 Session Hijacking regers to an attack where an attacker takes over a valid TCP communcation session between two computers
 
+
+HSTS important unables SSL to break.
+
+Tools:
+- Bettercap (Browser in the middle attack) bettercap -T 10.10.10.10 
+- OWASP
+- burpsuite
