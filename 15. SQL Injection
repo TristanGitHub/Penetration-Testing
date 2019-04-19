@@ -15,8 +15,6 @@ or using comments to even block the rest of the query (there are three types of 
     
 #### STEP 1. Search for vulnability
 You can use a semicolon to see if there is a vulnability
-
-    '
     
 #### STEP 2. Figure out how many columns there are
 You can do this by using this:
